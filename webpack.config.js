@@ -40,6 +40,11 @@ module.exports = {
       vue: 'vue/dist/vue.esm-bundler.js', // Garante que o Vue seja referenciado corretamente
     },
     extensions: ['.js', '.vue', '.json'], // Extensões reconhecidas pelo Webpack
+    fallback: {
+      // Configuração de polyfills para módulos Node.js
+      path: require.resolve('path-browserify'),
+      fs: require.resolve('browserify-fs'),
+    },
   },
   devtool: 'inline-source-map', // Facilita o debug no modo desenvolvimento
   devServer: {
