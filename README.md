@@ -5,3 +5,14 @@ O projeto consiste em desenvolver um sistema desktop para gerenciar informaçõe
 # Objetivo Principal
 
 Facilitar o gerenciamento de clientes, produtos em estoque e vendas realizadas, permitindo maior controle e automação de processos para pequenos e médios negócios.
+
+# Tecnologias Usadas
+
+- ![Electron](https://img.shields.io/badge/Electron-%23989898.svg?style=for-the-badge&logo=Electron&logoColor=white) **Electron**
+  - Framework para desenvolvimento de aplicativos desktop utilizando tecnologias web.
+  
+- ![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=for-the-badge&logo=Angular&logoColor=white) **Angular**
+  - Framework para desenvolvimento de interfaces de usuário dinâmicas e modulares.
+  
+- ![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=Python&logoColor=white) **Python**
+  - Utilizado para lógica de backend e integração com serviços externos.
